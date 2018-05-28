@@ -1,7 +1,7 @@
 <div style="text-align:center">
   <h1>Welcome to {{ title }}!</h1>
 </div>
-<app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+<app-form (addQuote)="addNewQuote($event)"></app-form>
 <div class="jumbotron" *ngFor="let Quote of quotes; let i=index">
   <blockquote class="blockquote mb-0">
     <div>"{{Quote.quote}}"</div>
