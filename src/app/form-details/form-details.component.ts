@@ -8,6 +8,21 @@ import { Quote } from '../quote';
 })
 export class FormDetailsComponent implements OnInit {
 
+  @Input() Quote:Quote;
+  @Output() complete = new EventEmitter<boolean>();
+
+  quoteDelete(deletequt:boolean) {
+    this.complete.emit(deletequt);
+  }
+
+  upVote() {
+    this.Quote.upVote ++
+  }
+
+  downVote() {
+    this.Quote.downVote --
+  }
+
   constructor() { }
 
   ngOnInit() {
