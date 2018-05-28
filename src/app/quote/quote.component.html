@@ -8,6 +8,6 @@
     <div>By: {{Quote.author}}</div>
     <div>Posted by: {{Quote.name}}</div>
     <div>Posted on: {{Quote.postingDate}}</div>
-    <app-quote-details [Quote]='Quote' (complete)='deleteQuote($event,i)'></app-quote-details>
+    <app-form-details [Quote]='Quote' (complete)='deleteQuote($event,i)'></app-form-details>
   </blockquote>
 </div>
