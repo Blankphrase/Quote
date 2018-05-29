@@ -63,7 +63,7 @@ The following are the specifications for this application:
 * The application displays an empty quote when site is loaded
 
 ## Contact details
-You can contact me at ckasera6486[at]gmail[dot]com
+You can contact me at ckasera6486@gmail.com
 
 ### License
 *MIT*
