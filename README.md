@@ -1,6 +1,6 @@
 # Quote
 
-####This is an Angular web application where users post quotes and the quotes can be rated based on inspiration 25 May 2018
+#### This is an Angular web application where users post quotes and the quotes can be rated based on inspiration 25 May 2018
 
 #### By **CLIFFORD KASERA**
 
